@@ -8,6 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import cplus from "./tech/cplus_icon.jpg";
+import python from "./tech/python_icon.jpeg";
+import bootstrap from "./tech/bootstrap_icon.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -21,7 +24,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+
+import _intern_img from "./company/_intern_img.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -36,6 +40,9 @@ export {
   creator,
   mobile,
   web,
+  cplus,
+  python,
+  bootstrap,
   github,
   menu,
   close,
@@ -52,7 +59,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  _intern_img,
   shopify,
   starbucks,
   tesla,

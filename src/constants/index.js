@@ -1,5 +1,6 @@
 import {
     mobile,
+    _intern_img,
     backend,
     creator,
     web,
@@ -7,6 +8,9 @@ import {
     typescript,
     html,
     css,
+    cplus,
+    python,
+    bootstrap,
     reactjs,
     redux,
     tailwind,
@@ -15,7 +19,7 @@ import {
     git,
     figma,
     docker,
-    meta,
+ 
     starbucks,
     tesla,
     shopify,
@@ -23,6 +27,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -45,16 +50,13 @@ import {
       title: "Web Developer",
       icon: web,
     },
+    
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Coding Enthusiast",
       icon: creator,
     },
   ];
@@ -72,10 +74,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -97,76 +96,54 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "C++",
+      icon: cplus,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "BootStrap",
+      icon: bootstrap,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Python",
+      icon: python,
     },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Development Engineer Intern",
+      company_name: " Central Ground Water Board",
+      icon: _intern_img,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - December 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed a website to showcase isotopic data points, bolstering the company’s platform with a visualization tool.",
+        "Conducted research to decipher the meaning behind the data, aiming for more informed data visualization.",
+        "Employed a secure, searchable database with PHP and SQL for authenticated organization members.",
+        " Developed a user-friendly interface with ReactJS and BootStrap for comprehension of isotopic data analysis.",
+        "Utilized Leaflet.js and JavaScript Plotly for precise data plotting, aiding CGWB scientists to understanding diverse data across India."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Development Engineer Intern",
+      company_name: "Blu Oceans",
+      icon: _intern_img,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023- July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developed and deployed the ”Glameura” website on AWS and implemented a search feature based on the product.",
+        "Implemented a secure payment feature, allowing users to save payment information for future use.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Enabled recurring payments, and seamless integration with other payment processing systems for user flexibility.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+  
   ];
   
   const testimonials = [
@@ -198,12 +175,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "FrensMedia",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " Devised a backend of a web app offering user connections, and follow/unfollow functionality for a dynamic user experience.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -211,53 +188,50 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "RestApi",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: github,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Movie Recommendor",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a movie recommendation system with Scikit-learn’s Cosine similarity and Count Vectorization.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Scikit-learn",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: jobit,
+      image: github,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "AquaInsight",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " Led a winning team in the national-level Smart India Hackathon 2022.Engineered a dynamic and searchable database using MySQL and PHP technologies. Seamlessly integrated Tableau into the interface for dynamic data representation.",
       tags: [
         {
-          name: "nextjs",
+          name: "ReactJs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "BootStrap",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PHP",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: github,
       source_code_link: "https://github.com/",
     },
   ];

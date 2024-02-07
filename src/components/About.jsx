@@ -47,11 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an undergard with experience in C++ and JavaScript, and expertise in frameworks like React, Node.js. I'm a quick learner and participated in the Smart India Hackathon 2022, I oversaw a winning team that demonstrated creativity and agility. With a strong basis in computer science, I guarantees end-to-end solutions and I am skilled in both front-end and back-end development. As a semi-finalist in the Google Girl Hackathon 2023, which has proved coding prowess in competitive contexts.
+        <br/>
+        Connect me on: 
+        <a href="https://www.linkedin.com/in/cherrie-verma-31b21b207/" target="_blank"> LinkedIn,</a>
+        <a href="https://github.com/cherrie2000/"> Github</a>
+        
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
